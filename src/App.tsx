@@ -1,12 +1,10 @@
-import { useState } from "react";
+
 import "./App.css";
 import { ClassTrafficLight } from "./ClassTrafficLight";
 import { FunctionalTrafficLight } from "./FunctionalTrafficLight";
 
 function App() {
    
-
-
   return (
     <>
       <main>

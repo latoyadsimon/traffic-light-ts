@@ -1,3 +1,5 @@
+// use files in the base copy to practice the exercise again.
+
 export const FunctionalTrafficLight = () => {
   return (
     <div className="traffic-light-box">

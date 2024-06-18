@@ -1,3 +1,5 @@
+// use files in the base copy to practice the exercise again.
+
 import { Component } from "react";
 
 export class ClassTrafficLight extends Component {
