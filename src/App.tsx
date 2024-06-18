@@ -1,15 +1,19 @@
+import { useState } from "react";
 import "./App.css";
 import { ClassTrafficLight } from "./ClassTrafficLight";
 import { FunctionalTrafficLight } from "./FunctionalTrafficLight";
 
 function App() {
+   
+
+
   return (
     <>
       <main>
         <h1>Traffic light App</h1>
         <div className="container">
           <div className="left">
-            <FunctionalTrafficLight />
+            <FunctionalTrafficLight  />
           </div>
           <div className="right">
             <ClassTrafficLight />
