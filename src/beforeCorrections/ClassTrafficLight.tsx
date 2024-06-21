@@ -1,7 +1,7 @@
 import { Component } from "react";
 
 export class ClassTrafficLight extends Component {
-      
+    
     state = {
         lightColor: "green",
     }

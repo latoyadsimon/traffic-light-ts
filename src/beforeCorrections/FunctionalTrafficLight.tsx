@@ -2,24 +2,23 @@ import { useState } from "react";
 
 
 export const FunctionalTrafficLight = () => {
-    type trafficLight = "red" | "yellow" | "green";
 
-  const [lightColor, setLightColor] = useState<trafficLight>("green");
+  const [lightColor, setLightColor] = useState("green");
   
   const lightChange = () => {
     switch(lightColor) {
         case "green":
             setLightColor("yellow");
-           return;
+            break;
         case "yellow":
             setLightColor("red");
-           return;
+            break;
         case "red":
             setLightColor("green");
-           return;
+            break;
         default:
             console.log("Good job, you broke a stop light. -slow clap-");
-           return;
+            break;
         }
     }
     
